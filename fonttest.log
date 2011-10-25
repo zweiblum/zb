@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (TeX Live 2012/dev/Arch Linux) (format=xelatex 2011.10.18)  25 OCT 2011 13:42
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (TeX Live 2012/dev/Arch Linux) (format=xelatex 2011.10.18)  25 OCT 2011 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -48,16 +48,16 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 119.
-Package scrbook Info: You've used obsolete option `11pt'.
-(scrbook)             \KOMAExecuteOptions{fontsize=11pt} will be
+Package scrbook Info: You've used obsolete option `12pt'.
+(scrbook)             \KOMAExecuteOptions{fontsize=12pt} will be
 (scrbook)             used instead.
-(scrbook)             You may simply replace `11pt'
-(scrbook)             by `fontsize=11pt'.
-Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
+(scrbook)             You may simply replace `12pt'
+(scrbook)             by `fontsize=12pt'.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
 ne 1347.
 
-(/usr/share/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2011/04/02 v3.09 KOMA-Script font size class option (11pt
+(/usr/share/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2011/04/02 v3.09 KOMA-Script font size class option (12pt
 )
 )
 (/usr/share/texmf-dist/tex/latex/koma-script/typearea.sty
@@ -83,17 +83,17 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             BCOR = 28.45274pt
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 398.33864pt
-(typearea)              DIV departure   = -1%
+(typearea)              DIV departure   = 0%
 (typearea)              \evensidemargin = 41.54105pt
 (typearea)              \oddsidemargin  = 13.08827pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 555.00024pt
+(typearea)              \textheight     = 563.0pt
 (typearea)              \topmargin      = 12.2347pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.60002pt
-(typearea)              \baselineskip   = 13.6pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1138.
 )
 \c@part=\count81
@@ -750,8 +750,7 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-))
-No file fonttest.aux.
+)) (./fonttest.aux)
 \openout1 = `fonttest.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -768,11 +767,12 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-No file fonttest.toc.
+
+(./fonttest.toc)
 \tf@toc=\write3
 \openout3 = `fonttest.toc'.
 
-[1
+ [1
 
 
 
@@ -796,11 +796,11 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 ] (./fonttest.aux) ) 
 Here is how much of TeX's memory you used:
- 13978 strings out of 494150
- 235892 string characters out of 3157690
- 345034 words of memory out of 3000000
+ 13984 strings out of 494150
+ 235913 string characters out of 3157690
+ 345041 words of memory out of 3000000
  17018 multiletter control sequences out of 15000+200000
- 11689 words of font info for 70 fonts, out of 3000000 for 9000
+ 11685 words of font info for 70 fonts, out of 3000000 for 9000
  1018 hyphenation exceptions out of 8191
  52i,18n,51p,815b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
 
